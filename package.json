@@ -13,6 +13,7 @@
   },
   "homepage": "https://elpddev.github.io/article-react-rxjs-obj-hooks-class-hooks",
   "scripts": {
+    "update-caniuse": "yarn dlx browserslist@latest --update-db",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
