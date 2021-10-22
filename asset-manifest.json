@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/article-react-rxjs-obj-hooks-class-hooks/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/main.fd1cb163.chunk.js",
-    "main.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/main.fd1cb163.chunk.js.map",
-    "runtime-main.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/runtime-main.5c6f7953.js",
-    "runtime-main.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/runtime-main.5c6f7953.js.map",
-    "static/js/2.8da03d7c.chunk.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/2.8da03d7c.chunk.js",
-    "static/js/2.8da03d7c.chunk.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/2.8da03d7c.chunk.js.map",
-    "static/js/3.7a7e356b.chunk.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/3.7a7e356b.chunk.js",
-    "static/js/3.7a7e356b.chunk.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/3.7a7e356b.chunk.js.map",
+    "main.css": "/article-react-rxjs-obj-hooks-class-hooks/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/main.d1679c35.chunk.js",
+    "main.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/main.d1679c35.chunk.js.map",
+    "runtime-main.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/runtime-main.2e56afab.js",
+    "runtime-main.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/runtime-main.2e56afab.js.map",
+    "static/js/2.243df126.chunk.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/2.243df126.chunk.js",
+    "static/js/2.243df126.chunk.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/2.243df126.chunk.js.map",
+    "static/js/3.51db9a44.chunk.js": "/article-react-rxjs-obj-hooks-class-hooks/static/js/3.51db9a44.chunk.js",
+    "static/js/3.51db9a44.chunk.js.map": "/article-react-rxjs-obj-hooks-class-hooks/static/js/3.51db9a44.chunk.js.map",
     "index.html": "/article-react-rxjs-obj-hooks-class-hooks/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/article-react-rxjs-obj-hooks-class-hooks/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.8da03d7c.chunk.js.LICENSE.txt": "/article-react-rxjs-obj-hooks-class-hooks/static/js/2.8da03d7c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/article-react-rxjs-obj-hooks-class-hooks/static/media/logo.6ce24c58.svg"
+    "static/css/main.6dea0f05.chunk.css.map": "/article-react-rxjs-obj-hooks-class-hooks/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.243df126.chunk.js.LICENSE.txt": "/article-react-rxjs-obj-hooks-class-hooks/static/js/2.243df126.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c6f7953.js",
-    "static/js/2.8da03d7c.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.fd1cb163.chunk.js"
+    "static/js/runtime-main.2e56afab.js",
+    "static/js/2.243df126.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.d1679c35.chunk.js"
   ]
 }
