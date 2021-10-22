@@ -47,7 +47,6 @@ const MainLayout = styled.div({
 const ResultPad = styled.div(({area}) => {
   return {
     gridArea: area,
-    gridArea: area,
     fontSize: '1.6em',
     height: '5em',
     background: '#2B2B2B',
