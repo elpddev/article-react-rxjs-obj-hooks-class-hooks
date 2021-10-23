@@ -1,9 +1,7 @@
-import {CalculatorManager} from './CalculatorManager';
+import { CalculatorManager } from "./CalculatorManager";
 
 function App() {
-  return (
-    <CalculatorManager />
-  );
+  return <CalculatorManager />;
 }
 
 export default App;

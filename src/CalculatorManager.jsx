@@ -1,9 +1,8 @@
-import {Component} from 'react';
-import {Subject} from 'rxjs';
-import {Calculator} from './Calculator';
+import { Component } from "react";
+import { Subject } from "rxjs";
+import { Calculator } from "./Calculator";
 
 export class CalculatorManager extends Component {
-
   /*
    * https://reactjs.org/docs/react-component.html#constructor
    *
@@ -21,7 +20,7 @@ export class CalculatorManager extends Component {
    */
   render() {
     return (
-      <Calculator 
+      <Calculator
         onClear={this.onClear}
         onDevision={this.onDevision}
         onMulti={this.onMulti}
@@ -42,7 +41,17 @@ export class CalculatorManager extends Component {
    * https://reactjs.org/docs/react-component.html#componentdidmount
    */
   componentDidMount() {
-    const {onClear, onPercentage, onDevision, onMulti, onAdd, onSub, onEqual, onDot, onNumber} = handleCalculator();
+    const {
+      onClear,
+      onPercentage,
+      onDevision,
+      onMulti,
+      onAdd,
+      onSub,
+      onEqual,
+      onDot,
+      onNumber,
+    } = handleCalculator();
 
     this.onClear = onClear;
     this.onPercentage = onPercentage;
@@ -52,26 +61,24 @@ export class CalculatorManager extends Component {
     this.onSub = onSub;
     this.onEqual = onEqual;
     this.onDot = onDot;
-    this.onNumber =onNumber;
+    this.onNumber = onNumber;
   }
 
   /*
-   * componentDidUpdate() is invoked immediately after updating occurs. 
+   * componentDidUpdate() is invoked immediately after updating occurs.
    * This method is not called for the initial render.
    *
    * https://reactjs.org/docs/react-component.html#componentdidupdate
    */
-  componentDidUpdate(prevProps, prevState, snapshot) {
-  }
+  componentDidUpdate(prevProps, prevState, snapshot) {}
 
   /*
    * componentWillUnmount() is invoked immediately before a component
-   * is unmounted and destroyed. 
+   * is unmounted and destroyed.
    *
    * https://reactjs.org/docs/react-component.html#componentwillunmount
    */
-  componentWillUnmount() {
-  }
+  componentWillUnmount() {}
 }
 
 function handleSubject() {
@@ -102,5 +109,3 @@ function handleCalculator() {
     onEqual,
   };
 }
-
-
