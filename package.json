@@ -25,7 +25,8 @@
     "serve": "yarn dlx serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier:write": "yarn prettier --write ."
+    "prettier:write": "yarn prettier --write .",
+    "postinstall": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +49,11 @@
   "packageManager": "yarn@3.0.2",
   "devDependencies": {
     "gh-pages": "^3.2.3",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "2.4.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,css,md}": "prettier --write"
   }
 }
