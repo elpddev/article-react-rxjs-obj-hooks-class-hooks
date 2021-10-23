@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "serve": "yarn dlx serve -s build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier:write": "yarn prettier --write ."
   },
   "eslintConfig": {
     "extends": [
