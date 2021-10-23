@@ -1,0 +1,8 @@
+# Ignore artifacts:
+
+.git
+.yarn
+build
+node_modules
+coverage
+.yarn.lock
