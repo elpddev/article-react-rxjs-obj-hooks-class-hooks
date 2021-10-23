@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import {Button} from './Button';
 
 export function Calculator({
   onClear,
@@ -11,7 +12,6 @@ export function Calculator({
   onNumber,
   onDot,
 }) {
-  
   return (
     <MainLayout>
       <ResultPad area="result" />
@@ -52,32 +52,6 @@ const ResultPad = styled.div(({area}) => {
     background: '#2B2B2B',
     border: '1px solid #414141',
     boxShadow: 'none',
-  };
-});
-
-const Button = styled.button(({area, type}) => {
-  const backgroundColor = {
-    primary: () => 'rgba(88, 88, 88, 0.75)',
-    secondary: () => 'rgba(17, 17, 17, 0.7)',
-    highlight: () => 'rgba(220, 140, 0, 0.7)',
-  }[type]();
-
-  const fontWeight = {
-    primary: () => 'normal',
-    secondary: () => 'lighter',
-    highlight: () => 'normal',
-  }[type]();
-
-  return {
-    backgroundColor,
-    fontWeight,
-    gridArea: area,
-    border: '1px solid #414141',
-    color: '#fdfdfd',
-    cursor: 'pointer',
-    textAlign: 'center',
-    fontSize: '1.6em',
-    height: '3em',
   };
 });
 
